@@ -1,0 +1,11 @@
+{
+  "name": "graphql-to-sql",
+  "version": "0.1.0",
+  "type":"module",
+  "scripts": {
+    "test":"jest"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
