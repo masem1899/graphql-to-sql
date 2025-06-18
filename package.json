@@ -1,7 +1,15 @@
 {
   "name": "graphql-to-sql",
   "version": "0.1.0",
+  "description": "Convert MS Graph-like URL queries ($filter, $select, etc) into SQL",
   "type":"module",
+  "main": "src/sqlBuilder.js",
+  "exports": {
+    ".": "./src/sqlBuilder.js"
+  },
+  "keywords": ["odata","sql","filter","query","parser","ms-graph"],
+  "author": "masem - Mario Semper",
+  "license": "MIT",
   "scripts": {
     "test":"jest"
   },
