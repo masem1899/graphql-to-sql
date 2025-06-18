@@ -1,6 +1,6 @@
 {
   "name": "gq-to-sql",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Convert MS Graph-like URL queries ($filter, $select, etc) into SQL",
   "type":"module",
   "main": "src/sqlBuilder.js",

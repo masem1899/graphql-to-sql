@@ -1,4 +1,4 @@
-# graphql-to-sql
+# gq-to-sql
 
 Convert MS Graph-style query strings like `$filter`, `$select`, `$orderby`, `$top` into SQL — safely and easily.
 
