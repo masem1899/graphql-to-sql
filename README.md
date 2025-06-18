@@ -3,7 +3,7 @@
 Convert MS Graph-style query strings like `$filter`, `$select`, `$orderby`, `$top` into SQL — safely and easily.
 
 ```js
-import { buildSQL } from 'graphql-to-sql';
+import { buildSQL } from 'gq-to-sql';
 
 const query = "$select=name,age&$filter=age gt 20 and name eq 'Mario'&$orderby=age desc";
 const { sql, params } = buildSQL(query, { table: 'users' });
@@ -25,3 +25,4 @@ MIT
 ## Links
 [masem](https://masem.at/s/npm)
 [Github Repository](https://github.com/masem1899/graphql-to-sql)
+[npm package](https://www.npmjs.com/package/gq-to-sql)
