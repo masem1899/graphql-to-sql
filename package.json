@@ -1,13 +1,20 @@
 {
   "name": "gq-to-sql",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Convert MS Graph-like URL queries ($filter, $select, etc) into SQL",
-  "type":"module",
+  "type": "module",
   "main": "src/sqlBuilder.js",
   "exports": {
     ".": "./src/sqlBuilder.js"
   },
-  "keywords": ["odata","sql","filter","query","parser","ms-graph"],
+  "keywords": [
+    "odata",
+    "sql",
+    "filter",
+    "query",
+    "parser",
+    "ms-graph"
+  ],
   "author": "masem - Mario Semper",
   "license": "MIT",
   "repository": {
@@ -19,7 +26,7 @@
   },
   "homepage": "https://masem.at/s/npm",
   "scripts": {
-    "test":"jest"
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "^30.0.0"
